@@ -18,16 +18,27 @@ import {
   Apps,
   ContactMail,
 } from "@material-ui/icons";
+import avatar from "../images/avatar.png";
 
 const Navbar = () => {
   return (
-    <Box component="nav">
-      <AppBar>
-        <Toolbar>
-          <ArrowBack />
-        </Toolbar>
-      </AppBar>
-    </Box>
+    <>
+      <Box component="div">
+        <Avatar src={avatar} alt="Cris Franco" />
+      </Box>
+      <Box component="nav">
+        <AppBar position="static" style={{ background: "#222" }}>
+          <Toolbar>
+            <IconButton>
+              <ArrowBack style={{ color: "tomato" }} />
+            </IconButton>
+            <Typography variant="h5" style={{ color: "tan" }}>
+              Portfolio
+            </Typography>
+          </Toolbar>
+        </AppBar>
+      </Box>
+    </>
   );
 };
 
