@@ -101,9 +101,9 @@ const Navbar = () => {
         <AppBar position="static" style={{ background: "#222" }}>
           <Toolbar>
             <IconButton onClick={toggleSlider("left", true)}>
-              <ArrowBack style={{ color: "tomato" }} />
+              <ArrowBack style={{ color: "white" }} />
             </IconButton>
-            <Typography variant="h5" style={{ color: "tan" }}>
+            <Typography variant="h5" style={{ color: "#c1b202" }}>
               Portfolio
             </Typography>
             <MobilLeftMenuSlider
