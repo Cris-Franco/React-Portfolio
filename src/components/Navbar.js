@@ -50,17 +50,14 @@ const menuItems = [
     listPath: "/",
   },
   {
-    listIcon: <AssignmentInd />,
-    listText: "Resume",
-    listPath: "/resume",
-  },
-  {
     listIcon: <Apps />,
     listText: "Portfolio",
+    listPath: "/portfolio",
   },
   {
     listIcon: <ContactMail />,
     listText: "Contacts",
+    listPath: "/contacts",
   },
 ];
 
