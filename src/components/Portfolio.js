@@ -21,12 +21,11 @@ import project6 from "../images/notetaker.jpeg";
 
 const useStyles = makeStyles({
   mainContainer: {
-    background: "#c1b202",
+    background: "#5d5d58",
     height: "100%",
   },
   cardContainer: {
     maxWidth: 345,
-    margin: "3rem",
     margin: "5rem auto",
   },
 });
@@ -58,15 +57,15 @@ const Portfolio = () => {
                   deleniti rem, recusandae quos dolor vel?
                 </Typography>
               </CardContent>
-              <CardActions>
-                <Button size="small" color="primary">
-                  Github Repo
-                </Button>
-                <Button size="small" color="primary">
-                  Live Demo
-                </Button>
-              </CardActions>
             </CardActionArea>
+            <CardActions>
+              <Button size="small" color="primary">
+                Github Repo
+              </Button>
+              <Button size="small" color="primary">
+                Live Demo
+              </Button>
+            </CardActions>
           </Card>
         </Grid>
         {/*Project 2*/}
@@ -90,15 +89,15 @@ const Portfolio = () => {
                   deleniti rem, recusandae quos dolor vel?
                 </Typography>
               </CardContent>
-              <CardActions>
-                <Button size="small" color="primary">
-                  Github Repo
-                </Button>
-                <Button size="small" color="primary">
-                  Live Demo
-                </Button>
-              </CardActions>
             </CardActionArea>
+            <CardActions>
+              <Button size="small" color="primary">
+                Github Repo
+              </Button>
+              <Button size="small" color="primary">
+                Live Demo
+              </Button>
+            </CardActions>
           </Card>
         </Grid>
         {/*Project 3*/}
@@ -122,15 +121,15 @@ const Portfolio = () => {
                   deleniti rem, recusandae quos dolor vel?
                 </Typography>
               </CardContent>
-              <CardActions>
-                <Button size="small" color="primary">
-                  Github Repo
-                </Button>
-                <Button size="small" color="primary">
-                  Live Demo
-                </Button>
-              </CardActions>
             </CardActionArea>
+            <CardActions>
+              <Button size="small" color="primary">
+                Github Repo
+              </Button>
+              <Button size="small" color="primary">
+                Live Demo
+              </Button>
+            </CardActions>
           </Card>
         </Grid>
         {/*Project 4*/}
@@ -154,15 +153,15 @@ const Portfolio = () => {
                   deleniti rem, recusandae quos dolor vel?
                 </Typography>
               </CardContent>
-              <CardActions>
-                <Button size="small" color="primary">
-                  Github Repo
-                </Button>
-                <Button size="small" color="primary">
-                  Live Demo
-                </Button>
-              </CardActions>
             </CardActionArea>
+            <CardActions>
+              <Button size="small" color="primary">
+                Github Repo
+              </Button>
+              <Button size="small" color="primary">
+                Live Demo
+              </Button>
+            </CardActions>
           </Card>
         </Grid>
         {/*Project 5*/}
@@ -186,15 +185,15 @@ const Portfolio = () => {
                   deleniti rem, recusandae quos dolor vel?
                 </Typography>
               </CardContent>
-              <CardActions>
-                <Button size="small" color="primary">
-                  Github Repo
-                </Button>
-                <Button size="small" color="primary">
-                  Live Demo
-                </Button>
-              </CardActions>
             </CardActionArea>
+            <CardActions>
+              <Button size="small" color="primary">
+                Github Repo
+              </Button>
+              <Button size="small" color="primary">
+                Live Demo
+              </Button>
+            </CardActions>
           </Card>
         </Grid>
         {/*Project 6*/}
@@ -218,15 +217,15 @@ const Portfolio = () => {
                   deleniti rem, recusandae quos dolor vel?
                 </Typography>
               </CardContent>
-              <CardActions>
-                <Button size="small" color="primary">
-                  Github Repo
-                </Button>
-                <Button size="small" color="primary">
-                  Live Demo
-                </Button>
-              </CardActions>
             </CardActionArea>
+            <CardActions>
+              <Button size="small" color="primary">
+                Github Repo
+              </Button>
+              <Button size="small" color="primary">
+                Live Demo
+              </Button>
+            </CardActions>
           </Card>
         </Grid>
       </Grid>
