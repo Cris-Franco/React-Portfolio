@@ -14,6 +14,10 @@ import {
 import Navbar from "./Navbar";
 import project1 from "../images/gametagr.jpeg";
 import project2 from "../images/querycuisine.jpeg";
+import project3 from "../images/weatherdashboard.jpeg";
+import project4 from "../images/passwordgenerator.jpeg";
+import project5 from "../images/workouttracker.jpeg";
+import project6 from "../images/notetaker.jpeg";
 
 const useStyles = makeStyles({
   mainContainer: {
@@ -45,7 +49,7 @@ const Portfolio = () => {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5">
-                  Project 1
+                  GameTagr
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad
@@ -56,7 +60,7 @@ const Portfolio = () => {
               </CardContent>
               <CardActions>
                 <Button size="small" color="primary">
-                  Share
+                  Github Repo
                 </Button>
                 <Button size="small" color="primary">
                   Live Demo
@@ -77,7 +81,7 @@ const Portfolio = () => {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5">
-                  Project 2
+                  Query Cuisine
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad
@@ -88,7 +92,135 @@ const Portfolio = () => {
               </CardContent>
               <CardActions>
                 <Button size="small" color="primary">
-                  Share
+                  Github Repo
+                </Button>
+                <Button size="small" color="primary">
+                  Live Demo
+                </Button>
+              </CardActions>
+            </CardActionArea>
+          </Card>
+        </Grid>
+        {/*Project 3*/}
+        <Grid item xs={12} sm={8} md={6}>
+          <Card className={classes.cardContainer}>
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                alt="Project3"
+                height="140"
+                image={project3}
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5">
+                  Weather Dashboard
+                </Typography>
+                <Typography variant="body2" color="textSecondary" component="p">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad
+                  rem mollitia et porro dicta? Sint reprehenderit iusto
+                  reiciendis aperiam suscipit ea veniam, laboriosam quas
+                  deleniti rem, recusandae quos dolor vel?
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small" color="primary">
+                  Github Repo
+                </Button>
+                <Button size="small" color="primary">
+                  Live Demo
+                </Button>
+              </CardActions>
+            </CardActionArea>
+          </Card>
+        </Grid>
+        {/*Project 4*/}
+        <Grid item xs={12} sm={8} md={6}>
+          <Card className={classes.cardContainer}>
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                alt="Project4"
+                height="140"
+                image={project4}
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5">
+                  Password Generator
+                </Typography>
+                <Typography variant="body2" color="textSecondary" component="p">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad
+                  rem mollitia et porro dicta? Sint reprehenderit iusto
+                  reiciendis aperiam suscipit ea veniam, laboriosam quas
+                  deleniti rem, recusandae quos dolor vel?
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small" color="primary">
+                  Github Repo
+                </Button>
+                <Button size="small" color="primary">
+                  Live Demo
+                </Button>
+              </CardActions>
+            </CardActionArea>
+          </Card>
+        </Grid>
+        {/*Project 5*/}
+        <Grid item xs={12} sm={8} md={6}>
+          <Card className={classes.cardContainer}>
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                alt="Project5"
+                height="140"
+                image={project5}
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5">
+                  Workout Tracker
+                </Typography>
+                <Typography variant="body2" color="textSecondary" component="p">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad
+                  rem mollitia et porro dicta? Sint reprehenderit iusto
+                  reiciendis aperiam suscipit ea veniam, laboriosam quas
+                  deleniti rem, recusandae quos dolor vel?
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small" color="primary">
+                  Github Repo
+                </Button>
+                <Button size="small" color="primary">
+                  Live Demo
+                </Button>
+              </CardActions>
+            </CardActionArea>
+          </Card>
+        </Grid>
+        {/*Project 6*/}
+        <Grid item xs={12} sm={8} md={6}>
+          <Card className={classes.cardContainer}>
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                alt="Project6"
+                height="140"
+                image={project6}
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5">
+                  Note Taker
+                </Typography>
+                <Typography variant="body2" color="textSecondary" component="p">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad
+                  rem mollitia et porro dicta? Sint reprehenderit iusto
+                  reiciendis aperiam suscipit ea veniam, laboriosam quas
+                  deleniti rem, recusandae quos dolor vel?
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small" color="primary">
+                  Github Repo
                 </Button>
                 <Button size="small" color="primary">
                   Live Demo
