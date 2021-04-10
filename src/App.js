@@ -1,5 +1,5 @@
 import React from "react";
-import { Route } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import "./App.css";
 import Home from "./components";
@@ -10,9 +10,9 @@ function App() {
   return (
     <>
       <CssBaseline />
-      <Route exact path="/" component={Home} />
-      <Route path="/portfolio" component={Portfolio} />
-      <Route path="/contacts" component={Contacts} />
+      <HashRouter exact path="/" component={Home} />
+      <HashRouter path="/portfolio" component={Portfolio} />
+      <HashRouter path="/contacts" component={Contacts} />
     </>
   );
 }
