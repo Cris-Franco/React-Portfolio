@@ -1,5 +1,6 @@
 import React from "react";
-import { HashRouter } from "react-router-dom";
+import { Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import "./App.css";
 import Home from "./components";
@@ -9,10 +10,12 @@ import Contacts from "./components/Contacts";
 function App() {
   return (
     <>
-      <CssBaseline />
-      <HashRouter exact path="/" component={Home} />
-      <HashRouter path="/portfolio" component={Portfolio} />
-      <HashRouter path="/contacts" component={Contacts} />
+      <Router basename={process.env.PUBLIC_URL}>
+        <CssBaseline />
+        <Route exact path="/" component={Home} />
+        <Route path="/portfolio" component={Portfolio} />
+        <Route path="/contacts" component={Contacts} />
+      </Router>
     </>
   );
 }
