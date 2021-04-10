@@ -51,10 +51,9 @@ const Portfolio = () => {
                   GameTagr
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad
-                  rem mollitia et porro dicta? Sint reprehenderit iusto
-                  reiciendis aperiam suscipit ea veniam, laboriosam quas
-                  deleniti rem, recusandae quos dolor vel?
+                  The following application is a video game review page that
+                  allows the user to search for games that have reviews from
+                  real gamers.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -83,10 +82,8 @@ const Portfolio = () => {
                   Query Cuisine
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad
-                  rem mollitia et porro dicta? Sint reprehenderit iusto
-                  reiciendis aperiam suscipit ea veniam, laboriosam quas
-                  deleniti rem, recusandae quos dolor vel?
+                  A simple food app that allows users to search for recipes
+                  based on ingredients that they have on hand.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -115,10 +112,9 @@ const Portfolio = () => {
                   Weather Dashboard
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad
-                  rem mollitia et porro dicta? Sint reprehenderit iusto
-                  reiciendis aperiam suscipit ea veniam, laboriosam quas
-                  deleniti rem, recusandae quos dolor vel?
+                  Weather-Dashboard is an application to find a weather
+                  condition of a given city both the current and 5-Days forecast
+                  at the same time.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -147,10 +143,10 @@ const Portfolio = () => {
                   Password Generator
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad
-                  rem mollitia et porro dicta? Sint reprehenderit iusto
-                  reiciendis aperiam suscipit ea veniam, laboriosam quas
-                  deleniti rem, recusandae quos dolor vel?
+                  A password generator application that uses a series of prompts
+                  and alerts to guide the user through entering valid password
+                  parameters. It then generates a password that fits those
+                  constraints using random number generation.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -179,10 +175,10 @@ const Portfolio = () => {
                   Workout Tracker
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad
-                  rem mollitia et porro dicta? Sint reprehenderit iusto
-                  reiciendis aperiam suscipit ea veniam, laboriosam quas
-                  deleniti rem, recusandae quos dolor vel?
+                  This application helps the user track their progress through
+                  daily workouts. A user can log any number of exercises for the
+                  day's workout. They can then see stats and graphs for their
+                  completed workouts on the stats page.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -211,10 +207,9 @@ const Portfolio = () => {
                   Note Taker
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad
-                  rem mollitia et porro dicta? Sint reprehenderit iusto
-                  reiciendis aperiam suscipit ea veniam, laboriosam quas
-                  deleniti rem, recusandae quos dolor vel?
+                  The following application uses node js to create a webpage
+                  that displays a note taking service. It allows for the user to
+                  save their notes, create new notes, and delete old ones.
                 </Typography>
               </CardContent>
             </CardActionArea>
