@@ -10,11 +10,11 @@ import Contacts from "./components/Contacts";
 function App() {
   return (
     <>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename="/">
         <CssBaseline />
         <Route exact path="/" component={Home} />
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/contacts" component={Contacts} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/contacts" component={Contacts} />
       </Router>
     </>
   );
