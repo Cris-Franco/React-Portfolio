@@ -58,10 +58,20 @@ const Portfolio = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary">
+              <Button
+                target="_blank"
+                href="https://github.com/Cris-Franco/GameTagr"
+                size="small"
+                color="primary"
+              >
                 Github Repo
               </Button>
-              <Button size="small" color="primary">
+              <Button
+                target="_blank"
+                href="https://gametagr.herokuapp.com/"
+                size="small"
+                color="primary"
+              >
                 Live Demo
               </Button>
             </CardActions>
@@ -88,10 +98,20 @@ const Portfolio = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary">
+              <Button
+                target="_blank"
+                href="https://github.com/Cris-Franco/Query-Cuisine"
+                size="small"
+                color="primary"
+              >
                 Github Repo
               </Button>
-              <Button size="small" color="primary">
+              <Button
+                target="_blank"
+                href="https://jdavidrice.github.io/Query-Cuisine/"
+                size="small"
+                color="primary"
+              >
                 Live Demo
               </Button>
             </CardActions>
@@ -119,10 +139,20 @@ const Portfolio = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary">
+              <Button
+                target="_blank"
+                href="https://github.com/Cris-Franco/Weather-Dashboard"
+                size="small"
+                color="primary"
+              >
                 Github Repo
               </Button>
-              <Button size="small" color="primary">
+              <Button
+                target="_blank"
+                href="https://cris-franco.github.io/Weather-Dashboard/"
+                size="small"
+                color="primary"
+              >
                 Live Demo
               </Button>
             </CardActions>
@@ -151,10 +181,20 @@ const Portfolio = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary">
+              <Button
+                target="_blank"
+                href="https://github.com/Cris-Franco/password_generator"
+                size="small"
+                color="primary"
+              >
                 Github Repo
               </Button>
-              <Button size="small" color="primary">
+              <Button
+                target="_blank"
+                href="https://cris-franco.github.io/password_generator/"
+                size="small"
+                color="primary"
+              >
                 Live Demo
               </Button>
             </CardActions>
@@ -183,10 +223,20 @@ const Portfolio = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary">
+              <Button
+                target="_blank"
+                href="https://github.com/Cris-Franco/Workout-Tracker"
+                size="small"
+                color="primary"
+              >
                 Github Repo
               </Button>
-              <Button size="small" color="primary">
+              <Button
+                target="_blank"
+                href="https://cryptic-chamber-18342.herokuapp.com/?id=606fcd7deef92d00152a29db"
+                size="small"
+                color="primary"
+              >
                 Live Demo
               </Button>
             </CardActions>
@@ -214,10 +264,20 @@ const Portfolio = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary">
+              <Button
+                target="_blank"
+                href="https://github.com/Cris-Franco/Note-Taker"
+                size="small"
+                color="primary"
+              >
                 Github Repo
               </Button>
-              <Button size="small" color="primary">
+              <Button
+                target="_blank"
+                href="https://boiling-refuge-88812.herokuapp.com/"
+                size="small"
+                color="primary"
+              >
                 Live Demo
               </Button>
             </CardActions>
