@@ -29,8 +29,8 @@ const Footer = () => {
   };
 
   if (state.isGitHubClicked === true || state.isLinkedInClicked === true) {
-    const linkedInUrl = "https://www.linkedin.com/";
-    const gitHubUrl = "https://www.linkedin.com/in/cris-franco-8401671b7/";
+    const linkedInUrl = "https://www.linkedin.com/in/cris-franco-8401671b7/";
+    const gitHubUrl = "https://github.com/Cris-Franco";
 
     window.location.href =
       state && state.isGitHubClicked
