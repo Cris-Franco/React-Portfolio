@@ -30,7 +30,7 @@ const Footer = () => {
 
   if (state.isGitHubClicked === true || state.isLinkedInClicked === true) {
     const linkedInUrl = "https://www.linkedin.com/";
-    const gitHubUrl = "https://github.com/";
+    const gitHubUrl = "https://www.linkedin.com/in/cris-franco-8401671b7/";
 
     window.location.href =
       state && state.isGitHubClicked
