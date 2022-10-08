@@ -3,6 +3,6 @@ body {
   -webkit-background: cover;
   -moz-background: cover;
   -o-background: cover;
-  background-size: 100%;
+  background-size: cover;
   background-color: black;
 }
