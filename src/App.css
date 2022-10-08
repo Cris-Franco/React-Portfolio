@@ -1,5 +1,7 @@
 body {
-  background: url(/src/images/background.jpeg);
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background: url(/src/images/background.jpeg) no-repeat center center fixed;
+  -webkit-background: cover;
+  -moz-background: cover;
+  -o-background: cover;
+  background: cover;
 }
